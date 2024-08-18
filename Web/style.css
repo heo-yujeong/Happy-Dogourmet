@@ -1,0 +1,223 @@
+@font-face {
+  src : url("./static/fonts/SCDream3.otf");
+  font-family: "SCDream3";
+}
+@font-face {
+  src : url("./static/fonts/SCDream7.otf");
+  font-family: "SCDream7";
+}
+
+body {
+    font-family: "SCDream3";
+  }
+  #container {
+    width: 100%;
+    height: 2087px;
+    margin:0 auto;
+    background-image: url(static/background.png);
+    background-repeat: no-repeat;
+  }
+
+  header {
+    width: 100%;
+    height: 25%;
+}
+.content {
+    float: left;
+    width: 100%;
+    height: 65%;
+}
+footer {
+    clear: both;
+    width: 100%;
+    height: 10%;
+}
+
+.section {
+  width: 100%;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.section_text {
+  font-family: "SCDream7";
+  font-size: 80px;
+}
+  .file-upload {
+    background-color: #ffffff;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .file-upload-btn {
+    width: 450px;
+    height: 100px;
+    margin: 0;
+    color: #fff;
+    font-size: 40px;
+    font-family: "SCDream3";
+    background: #EBAD9C;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    border-bottom: 4px solid #EB9078;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 8px;
+  }
+  
+  .file-upload-btn:hover {
+    background: #EB9078;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+
+  .file-upload-btn2{
+    width: 450px;
+    height: 100px;
+    margin: 0;
+    color: #fff;
+    font-size: 40px;
+    font-family: "SCDream3";
+    background:  #EB9078;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    border-bottom: 4px solid#F37250;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 8px;
+  }
+
+  .file-upload-btn2:hover {
+    background: #F37250;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .file-upload-btn2:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+  
+  .file-upload-content {
+    display: none;
+    text-align: center;
+  }
+  
+  .file-upload-input {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .image-upload-wrap {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 4px solid #F94B1C;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    background-image: url(./static/image_man.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 80%;
+  }
+
+  .image-upload-wrap2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 4px solid #F94B1C;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    background-image: url(./static/image_before.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: bottom;
+    background-size: 110%;
+  }
+  
+  .image-dropping,
+  .image-upload-wrap:hover {
+    background-color: #ffffff;
+    border: 4px dashed #ffffff;
+  }
+  
+  .image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+  }
+  
+  .drag-text {
+    text-align: center;
+  }
+  
+  .drag-text h3 {
+    font-weight: 100;
+    font-size: 30px;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #F94B1C;
+    padding: 60px 0;
+  }
+  
+  .file-upload-image {
+    /* max-height: 200px;
+    max-width: 200px; */
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .remove-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .remove-image:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+
+  .result-text {
+    font-family: "SCDream3";
+    font-size: 40px;
+  }
