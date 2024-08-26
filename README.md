@@ -98,7 +98,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
 
 #### Framework
-![Jupyter](https://img.shields.io/bedge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=fff)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=fff)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=Expo&logoColor=fff)
 
 #### DB
